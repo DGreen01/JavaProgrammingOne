@@ -7,7 +7,8 @@ import java.util.*;
  *
  * @author Donovan Green
  */
-public class C5_46 /**
+public class C5_46
+        /**
  * Main Method
  *
  * @param args arguments from command line prompt
