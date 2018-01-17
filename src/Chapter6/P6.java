@@ -12,6 +12,12 @@ public class P6
     /** * Main Method
  *
  * @param args arguments from command line prompt
+ * @param conversion converting dollars to Euros.
+ * @param Conversion converting dollars to Pound Sterling.
+ * @param Converisions converting java to Yen.
+ * return Euros bought.
+ * return Pound sterling bought.
+ * return Yen bought
  */
     {
         Scanner input = new Scanner(System.in);

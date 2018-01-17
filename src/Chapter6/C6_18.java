@@ -3,13 +3,15 @@ package Chapter6;
 import java.util.*;
 
 /**
- *
- * @author dg0963284
+ * Code to check a password requirements.
+ * @author Donovan Green
  */
 public class C6_18 /**
  * Main Method
  *
  * @param args arguments from command line prompt
+ * @param checkPassword checks password requirements
+ * @return if password is valid
  */
 {
 
