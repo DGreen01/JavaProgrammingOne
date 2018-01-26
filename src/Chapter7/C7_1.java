@@ -11,10 +11,7 @@ public class C7_1 /**
  * Main Method
  *
  * @param args arguments from command line prompt
- * @param displayGrades displays the grades
- * @param assignLetterGrade puts a letter grade with the number grade
- * @param bestGrade determines the best grade return high score returns the
- * highest score
+ *
  */
 {
 
@@ -34,6 +31,11 @@ public class C7_1 /**
         displayGrades(scores);
     }
 
+    /**
+     * displays the grades
+     *
+     * @param grades array containing the grades
+     */
     public static void displayGrades(int[] grades) {
         int highScore = bestGrade(grades);
 
@@ -43,6 +45,13 @@ public class C7_1 /**
         }
     }
 
+    /**
+     * puts a letter grade with the number grade and returns the letter
+     *
+     * @param grade grade that the user enters
+     * @param highScore the highest grade the user enters
+     * @return letter grade
+     */
     public static char assignLetterGrade(int grade, int highScore) {
 
         if (highScore - grade <= 10) {
@@ -58,6 +67,12 @@ public class C7_1 /**
         }
     }
 
+    /**
+     * returns the best / highest grade
+     *
+     * @param grades the grades the user entered
+     * @return highest score
+     */
     public static int bestGrade(int[] grades) {
         int highScore = grades[0];
 

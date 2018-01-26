@@ -11,7 +11,6 @@ public class C7_26 /**
  * Main Method
  *
  * @param args arguments from command line prompt
- * @param equals check if arrays are equal returns false if not true
  */
 {
 
@@ -22,6 +21,13 @@ public class C7_26 /**
         equals = equals(list1, list2);
     }
 
+    /**
+     * checks to see if arrays are equal and returns true or false
+     *
+     * @param list1 the first array the user enters
+     * @param list2 the second array the user enters
+     * @return true or false if arrays are equal or not
+     */
     public static boolean equals(int[] list1, int[] list2) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter how many elements are in the array");

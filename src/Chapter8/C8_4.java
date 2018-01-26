@@ -1,7 +1,7 @@
 package Chapter8;
 
 /**
- * Code to
+ * Code to compute weekly hours for each employee
  *
  * @author Donovan Green
  */
@@ -12,8 +12,30 @@ public class C8_4 {
      *
      * @param args arguments from command line prompt
      */
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        int[][] employeeHours = {
+            {2, 4, 3, 4, 5, 8, 8, 34},
+            {7, 3, 4, 3, 3, 4, 4, 28},
+            {3, 3, 4, 3, 3, 2, 2, 20},
+            {9, 3, 4, 7, 3, 4, 1, 31},
+            {3, 5, 4, 3, 6, 3, 8, 32},
+            {3, 4, 4, 6, 3, 4, 4, 28},
+            {3, 7, 4, 8, 3, 8, 4, 37},
+            {6, 3, 5, 9, 2, 7, 9, 41}
+        };
 
-        System.out.println("Did not do chapter 8");
+        int num1 = 0;
+        System.out.println("          Su    M     T    W     Th	 F 	Sa    Total");
+        int num2 = 0;
+        while (num2 < 8) {
+            System.out.print("Employee" + num2 + "  ");
+            for (int i = 0; i < 8; i++) {
+                System.out.print(employeeHours[num1][i] + "     ");
+            }
+            num1 += 1;
+            num2 += 1;
+
+        }
     }
+
 }

@@ -19,6 +19,11 @@ public class C7_9 /**
 
     }
 
+    /**
+     * finds the array minimum
+     *
+     * @param array the array the user inputed
+     */
     public static void min(double[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             double currentMin = array[i];
